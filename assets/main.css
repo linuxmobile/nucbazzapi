@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --black: #131415;
+    --dark: #2B2B2C;
+    --cheese: #FFA400;
+    --tomato: #FC2933;
+    --white: #FFFFFF;
+    --gradient: linear-gradient(90deg, rgba(255,161,0,1) 0%, rgba(251,16,61,1) 100%);
+    --font: montserrat, sans-serif;
+    --font-alt: roboto, sans-serif;
+}
+
+ul,li,a {
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: var(--black);
+    width: 100%;
+    height: 100%;
+}
+
+/* Heading 🦄 */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+}
+
+.header__img {
+    width: 90%;
+}
+
+.header__ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__li a {
+    color: #89530B;
+}
+
+.header__li i {
+    padding: 0 10px;
+}
+
+.header__li .header__a {
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__li .fa-house {
+    color: var(--cheese);
+    padding-bottom: 3px;
+}
+
+/* Section Hero 🦸 */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+}
+
+.hero__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    flex-direction: column;
+}
+
+.hero__heading {
+    font-family: var(--font);
+    font-weight: 700;
+    font-size: 3em;
+    color: var(--white);
+}
+
+.hero__search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 70%;
+    position: relative;
+    margin: 30px 0;
+}
+
+.hero__search .fa-searchprr {
+    position: absolute;
+    left: 12px;
+    color: var(--white);
+    opacity: 0.6;
+}
+.hero__search input {
+    width: 70%;
+    background-color: var(--dark);
+    border: none;
+    border-radius: 13px;
+    padding: 12px;
+}
+
+::placeholder {
+    font-family: var(--font-alt);
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    opacity: 0.4;
+    padding: 0 30px;
+}
+
+.hero__search button {
+    width: 30%;
+    border: none;
+    background: var(--gradient);
+    border-radius: 13px;
+    padding: 12px;
+    color: var(--white);
+    font-family: var(--font);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.hero__img {
+    width: 40%;
+}
