@@ -175,3 +175,83 @@ button:hover {
     width: 75%;
     margin-bottom: 90px;
 }
+
+/* Section Favs 🫶 */
+.favs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    margin-top: 40px;
+    flex-direction: column;
+}
+
+.favs h2 {
+    font-family: var(--font);
+    font-weight: 500;
+    font-size: 22px;
+    color: var(--white);
+    width: 85%;
+    text-align: left;
+}
+
+.favs-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 85%;
+    margin-top: 20px;
+}
+
+.fav-cardx {
+    width: 100%;
+    height: 100px;
+    background-color: var(--dark);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 10px;
+}
+
+.fav-cardx img {
+    width: 20%;
+}
+
+.fav__desc {
+    width: 45%;
+}
+.fav-cardx h3 {
+    font-family: var(--font);
+    color: var(--white);
+    font-weight: 500;
+    font-size: 15px;
+}
+.fav-cardx p {
+    font-family: var(--font);
+    color: var(--white);
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 0.2;
+}
+.fav-cardx h4 {
+    font-family: var(--font);
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+.fav-cardx button {
+    border: none;
+    background: var(--gradient);
+    border-radius: 20px;
+    padding: 7px 14px;
+    color: var(--white);
+    font-family: var(--font);
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
