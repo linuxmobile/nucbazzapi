@@ -418,3 +418,40 @@ button:hover {
     font-size: 12px;
     letter-spacing: 0.5px;
 }
+
+/* Footer section 🦶🏻 */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    margin-top: 40px;
+    flex-direction: column;
+}
+
+.footer__li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 30px;
+    margin: 20px 0;
+}
+.footer__li a {
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 17px;
+    color: var(--white);
+}
+
+footer {
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 17px;
+    color: var(--white);
+    margin-top: 50px;
+}
+footer strong {
+    font-weight: 900;
+}
