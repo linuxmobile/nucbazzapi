@@ -65,6 +65,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 12px;
 }
 .header__li .fa-house {
     color: var(--cheese);
