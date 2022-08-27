@@ -255,3 +255,77 @@ button:hover {
     font-size: 12px;
     letter-spacing: 0.5px;
 }
+
+/* Section Categories ✨ */
+.categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    margin-top: 40px;
+    flex-direction: column;
+}
+
+.categories h5 {
+    font-family: var(--font);
+    font-weight: 800;
+    font-size: 15px;
+    color: var(--white);
+    width: 85%;
+}
+
+.cat__images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    gap: 30px;
+}
+
+.cat__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 150px;
+    height: 160px;
+    background-color: var(--dark);
+    border-radius: 15px;
+    margin-top: 20px;
+}
+/* Blur images :3 */
+.imgblr {
+    position: relative;
+    height: 60%;
+}
+.zz {
+    margin-top: 2px;
+}
+.blurred {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    filter: blur(5px);
+    z-index: 1;
+}
+.noblurred {
+    z-index: 9;
+    position: relative;
+}
+
+.cat__img p {
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--white);
+}
+
+.cat__img .catline {
+    width: 30px;
+    height: 5px;
+    border-radius: 10px;
+    background: var(--gradient);
+    margin-top: 10px;
+}
