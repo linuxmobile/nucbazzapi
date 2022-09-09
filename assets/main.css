@@ -151,6 +151,7 @@ input[type=search] {
 
 .hero__search button {
     width: 30%;
+    min-width: 100px;
     border: none;
     background: var(--gradient);
     border-radius: 13px;
@@ -213,7 +214,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 0 40px;
     width: 85%;
     margin-top: 20px;
 }
@@ -221,6 +222,7 @@ button:hover {
 .fav-cardx {
     width: 100%;
     height: 100px;
+    min-width: 300px;
     background-color: var(--dark);
     border-radius: 15px;
     display: flex;
@@ -468,4 +470,40 @@ footer {
 }
 footer strong {
     font-weight: 900;
+}
+
+@media (max-width: 1024px) {
+    .favs-cards {
+        gap: 15px;
+        width: 45%;
+        flex-wrap: wrap;
+        min-width: 200px;
+    }
+    
+    .fav-cardx {
+        width: 100%;
+        height: 100px;
+        min-width: 300px;
+        gap: 20px;
+        padding: 0 10px;
+    }
+    .hero__img .pizza-r {
+        left: 80px;
+        width: 75%;
+        margin-bottom: 60px;
+    }
+}
+@media (max-width: 768px) {
+    .hero__img .pizza-r {
+        left: 55px;
+        width: 78%;
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 500px) {
+    .hero__img .pizza-r {
+    left: 20px;
+    width: 78%;
+    margin-bottom: 16px;
+}
 }
