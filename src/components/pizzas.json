@@ -4,21 +4,24 @@
         "name": "Bennazianna",
         "desc": "La más completa",
         "price": "$3650",
-        "image": "/Photo Menu-8.png"
+        "image": "/Photo Menu-8.png",
+        "hotsale": true
     },
     {
         "id": "2",
         "name": "Tronco-Pizza",
         "desc": "Para todo el día",
         "price": "$870",
-        "image": "/Photo Menu-9.png"
+        "image": "/Photo Menu-9.png",
+        "hotsale": true
     },
     {
         "id": "3",
         "name": "Papas | Provenzal",
         "desc": "Van como piña",
         "price": "$360",
-        "image": "/Photo Menu-10.png"
+        "image": "/Photo Menu-10.png",
+        "hotsale": true
     },
     {
         "id": "4",
