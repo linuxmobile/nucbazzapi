@@ -1,10 +1,10 @@
 # Welcome to [Astro](https://astro.build)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
+[![Open in vercel](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpopupsmart.com%2Fassets%2Fimg%2Fvercel-logo.png&f=1&nofb=1&ipt=f49a0c3afa8f31df51e06b8bf0c53a7a8e07cf1669fc61edabeb4a8c4971f4d8&ipo=images)](https://nucbazzapi-v2.vercel.app/)
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
+![basics](https://i.imgur.com/E083BW9.png)
 
 
 ## 🚀 Project Structure
