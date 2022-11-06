@@ -1,0 +1,43 @@
+---
+import CategoriesTiles from "./CategoriesTiles.astro";
+
+const categories = [
+    {
+        image: 'image 34-1.svg',
+        title: 'Pizzas'
+    },
+    {
+        image: '/burger 1.svg',
+        title: 'Hamburguesas'
+    },
+    {
+        image: '/fries 2.svg',
+        title: 'Napapuki'
+    },
+    {
+        image: '/pizza 2.svg',
+        title: 'Individuales'
+    },
+    {
+        image: '/buritto 1.svg',
+        title: 'Wraps'
+    },
+    {
+        image: '/taco 1.svg',
+        title: 'Mexican Foods'
+    },
+    {
+        image: '/float 1.svg',
+        title: 'Batidukis'
+    },
+]
+---
+
+<section class="flex flex-col justify-center w-full px-28 mt-20 gap-6">
+    <h3 class="text-white font-extrabold">Categorias</h3>
+    <div class="flex w-full items-center justify-center gap-8">
+        {
+            categories.map(cat => <CategoriesTiles {...cat} />)
+        }
+    </div>
+</section>
