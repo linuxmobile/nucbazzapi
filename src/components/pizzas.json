@@ -3,77 +3,77 @@
         "name": "Bennazianna",
         "desc": "La más completa",
         "price": "$3650",
-        "image": "/Photo Menu-8.png",
+        "image": "/Photo Menu-8.webp",
         "hotsale": true
     },
     {
         "name": "Tronco-Pizza",
         "desc": "Para todo el día",
         "price": "$870",
-        "image": "/Photo Menu-9.png",
+        "image": "/Photo Menu-9.webp",
         "hotsale": true
     },
     {
         "name": "Papas | Provenzal",
         "desc": "Van como piña",
         "price": "$360",
-        "image": "/Photo Menu-10.png",
+        "image": "/Photo Menu-10.webp",
         "hotsale": true
     },
     {
         "name": "La Mr. Pit",
         "desc": "¡Solo para expertos!",
         "price": "$350",
-        "image": "/Photo Menu.png",
+        "image": "/Photo Menu.webp",
         "principal": true
     },
     {
         "name": "¡Q' Jamone!",
         "desc": "c/jamón crudo",
         "price": "$350",
-        "image": "/Photo Menu-1.png",
+        "image": "/Photo Menu-1.webp",
         "principal": true
     },
     {
         "name": "La Charly García",
         "desc": "¡BASTA!",
         "price": "$380",
-        "image": "/Photo Menu-2.png",
+        "image": "/Photo Menu-2.webp",
         "principal": true
     },
     {
         "name": "La Maradona",
         "desc": "!Eterna!",
         "price": "$450",
-        "image": "/Photo Menu-3.png",
+        "image": "/Photo Menu-3.webp",
         "principal": true
     },
     {
         "name": "Picantovich",
         "desc": "Pica 2 veces",
         "price": "$750",
-        "image": "/Photo Menu-4.png",
+        "image": "/Photo Menu-4.webp",
         "principal": true
     },
     {
         "name": "La Hasbulla",
         "desc": "En honor al 1",
         "price": "$990",
-        "image": "/Photo Menu-5.png",
+        "image": "/Photo Menu-5.webp",
         "principal": true
     },
     {
         "name": "Leo Messi",
         "desc": "!De pié señores!",
         "price": "$10",
-        "image": "/Photo Menu-6.png",
+        "image": "/Photo Menu-6.webp",
         "principal": true
     },
     {
         "name": "Nick Gi",
         "desc": "La que desaparece",
         "price": "$Gratis",
-        "image": "/Photo Menu-7.png",
+        "image": "/Photo Menu-7.webp",
         "principal": true
     }
 ]
