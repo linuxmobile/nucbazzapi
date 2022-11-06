@@ -1,0 +1,17 @@
+---
+import OnSaleCard from './OnSaleCard.astro';
+import pizzasJSON from './pizzas.json'
+---
+
+<section class="flex flex-col justify-center w-full px-28">
+    <h2 class="text-white font-medium text-2xl my-8">Hoy te recomendamos: </h2>
+    <div class="flex w-full items-center justify-center gap-8">
+        {
+            // pizzasJSON.map(pizzas => <OnSaleCard {...pizzas} />)
+            // show all pizzas
+            pizzasJSON.filter((pizza) => pizza.hotsale).map((pizzas => <OnSaleCard {...pizzas} />))
+        }
+    </div>
+    <script type="module">
+    </script>
+</section>
